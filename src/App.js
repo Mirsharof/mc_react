@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/header/Header.js';
 function App() {
   return (
    <div>
-     React app
+     <Header/>
    </div>
+   )
 }
 
 export default App;
